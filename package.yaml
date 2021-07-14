@@ -28,10 +28,6 @@ default-extensions:
   - Arrows
 library:
   source-dirs: src
-flags:
-  gloss:
-    glfw: true
-
 executables:
   gloss-test-exe:
     main:                Main.hs
