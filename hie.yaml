@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "gloss-test:lib"
+
+    - path: "./app/Main.hs"
+      component: "gloss-test:exe:gloss-test-exe"
+
+    - path: "./app/Paths_gloss_test.hs"
+      component: "gloss-test:exe:gloss-test-exe"
+
+    - path: "./test"
+      component: "gloss-test:test:gloss-test-test"
