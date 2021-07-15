@@ -50,7 +50,10 @@ extra-deps:
   #  - OpenGLRaw-3.3.4.0
   #  - StateVar-1.2.1
 flags:
+  bindings-GLFW:
+    osmesa: true
   gloss:
+    glut: false
     glfw: true
 
 # Extra package databases containing global packages
