@@ -25,7 +25,7 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      DisplayTest
   other-modules:
       Paths_gloss_test
   hs-source-dirs:
